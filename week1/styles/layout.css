@@ -1,0 +1,48 @@
+body {
+  display: grid;
+}
+
+h1 {
+    color: white;
+    padding: 20px;
+}
+
+header {
+  background: #333333;
+  grid-column: 1 / 5;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+  background: gray;
+  grid-column: 1 / 4;
+}
+
+.aside-content {
+  background: white;
+  grid-column: 4 / 5;
+}
+
+footer {
+  background: #333333;
+  text-align: center;
+  grid-column: 1 / 5;
+  padding: 2rem;
+}
+
+.main-content,
+.aside-content {
+    padding: 5rem;
+    text-align: left;
+}
